@@ -50,12 +50,21 @@ z = st.number_input(
     value=15000.0
 )
 
+# Nhập tiền WiFi
+st.subheader("📶 Tiền WiFi")
+W = st.number_input(
+    "Nhập tiền WiFi (đồng)",
+    min_value=0.0,
+    value=100000.0
+)
+
 # Nút tính toán
 if st.button("Tính tiền phòng trọ"):
     B = (b - a) * c
     C = (y - x) * z
-    D = A + B + C
+    D = A + B + C + W
 
     st.success(f"Tổng tiền điện: {B:,.0f} đồng")
     st.success(f"Tổng tiền nước: {C:,.0f} đồng")
+    st.success(f"Tiền WiFi: {W:,.0f} đồng")
     st.success(f"Tổng tiền phòng trọ của 1 tháng: {D:,.0f} đồng")
