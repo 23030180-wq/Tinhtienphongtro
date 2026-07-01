@@ -9,7 +9,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🏠 HỆ THỐNG TÍNH CHI PHÍ PHÒNG TRỌ")
+st.title("🏠 TÍNH TIỀN PHÒNG TRỌ_ ĐỀ TÀI 1_ CHUNG MỸ TRÚC")
 st.write("Nhập các thông tin dưới đây để tính tổng chi phí sinh hoạt hàng tháng.")
 
 # ==========================
