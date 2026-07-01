@@ -7,7 +7,7 @@ st.title("🏠 TÍNH TIỀN PHÒNG TRỌ HÀNG THÁNG")
 A = st.number_input(
     "Nhập số tiền phòng (đồng)",
     min_value=0.0,
-    value=300000000.0
+    value=3000000.0
 )
 
 # Nhập chỉ số điện
