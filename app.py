@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Tiêu đề ứng dụng
-st.title("🏠 TÍNH TIỀN PHÒNG TRỌ HÀNG THÁNG")
+st.title("🏠 TÍNH TIỀN PHÒNG TRỌ HÀNG THÁNG _ Đề tài 1_ CHUNG MỸ TRÚC")
 
 # Nhập tiền phòng
 A = st.number_input(
